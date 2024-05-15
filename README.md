@@ -1,5 +1,5 @@
-# simpleAngularModuleFederation
-Two apps made with Angular and Module Federation Plugin
+# simpleAngularNativeFederation
+Two apps made with Angular and Native Federation Plugin
 
 ## Installation
 
