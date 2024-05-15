@@ -1,0 +1,19 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "Main App",
+  "workspaces": [
+    "angularApp1",
+    "angularApp2"
+  ],
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\"",
+    "clean": "rm -rf ./node_modules **/node_modules ./package-lock.json **/package-lock.json **/dist"
+  },
+  "author": "Yvson Moura",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "wsrun": "^5.2.4"
+  }
+}
